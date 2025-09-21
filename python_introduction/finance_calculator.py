@@ -5,7 +5,7 @@ TE=int(totalExpenses)
 
 MonthlySavings =  MI - TE
 
-ProjectedSavings = MonthlySavings * 12 + (MonthlySavings * 12 * 0.05)
+ProjectedSavings = float(MonthlySavings) * 12 + (float(MonthlySavings) * 12 * 0.05)
 
 print('Your monthly savings are $',MonthlySavings,'.')
 print("Projected savings after one year, with interest, is: $",int(ProjectedSavings),".")
