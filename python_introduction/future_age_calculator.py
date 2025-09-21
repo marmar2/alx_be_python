@@ -1,6 +1,5 @@
-print("How old are you? ")
 
-years = input()
+years = input("How old are you? ")
 y = int(years)
 noofyears = y + 27
 
