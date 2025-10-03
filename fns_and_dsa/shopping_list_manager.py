@@ -1,13 +1,13 @@
-def add(list, x):
+def add(List, x):
 
-  list.append(x)
+  List.append(x)
   
-def remove(list, x):
+def remove(List, x):
 
-  list.remove(x) 
+  List.remove(x) 
 
-def view(list):
-   print(list)  
+def view(List):
+   print(List)  
   
 def display_menu():
     print("Shopping List Manager")
