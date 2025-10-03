@@ -21,5 +21,9 @@ match op:
 
   case "/":
     
-     result=num1/num2
-     print ("The result is "+ str(result))
+     if num2 ==0:
+          print("Cannot divide by zero.")
+      
+     else:
+         result=num1/num2
+         print ("The result is "+ str(result))
