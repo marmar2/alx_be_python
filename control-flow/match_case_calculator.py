@@ -1,0 +1,25 @@
+num1= int(input("Enter the first number:"))
+num2= int(input("Enter the second number:"))
+op = str(input("Choose the operation (+, -, *, /):."))
+
+match op:
+
+  case "+":
+    
+     result=num1+num2
+     print ("The result is "+ str(result))
+     
+  case "-":
+    
+     result=num1-num2
+     print ("The result is "+ str(result))   
+ 
+  case "*":
+    
+     result=num1*num2
+     print ("The result is "+ str(result))  
+
+  case "/":
+    
+     result=num1/num2
+     print ("The result is "+ str(result))
