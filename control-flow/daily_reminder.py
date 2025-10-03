@@ -9,16 +9,12 @@ match priority:
     case "medium":
        text1=str(task)+"' is a medium priority task" 
     case "low":
-       text1=str(task)+"' is a low priority task"
+       print(f"Note: '{task}' is a low priority task. Consider completing it when you have free time.")
        
 
 
-if time_bound=="yes":
-    text="Reminder:"
-    text2= "that requires immediate attention today!" 
-    print(f"{text} '{text1} {text2}")    
-elif time_bound=="no":
-    text="Note:"
-    text2= ". Consider completing it when you have free time."
-    print(f"{text} '{text1} {text2}")    
+if time_bound=="yes" and priority!="low": 
+    print(f"Reminder: '{text1} that requires immediate attention today!")    
+elif time_bound=="no" and priority!="low":
+    print(f"Note: '{text1}. Consider completing it when you have free time.")    
       
