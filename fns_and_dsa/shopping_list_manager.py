@@ -23,10 +23,10 @@ def main():
         choice = int(input("Enter your choice: "))
 
         if choice == '1':
-            add(shopping_list, input("Add item: "))
+            add(shopping_list, int(input("Add item: ")))
             pass
         elif choice == '2':
-            remove(shopping_list, input("remove item: "))
+            remove(shopping_list, int(input("remove item: ")))
             pass
         elif choice == '3':
             view(shopping_list)
