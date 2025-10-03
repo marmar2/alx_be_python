@@ -5,25 +5,17 @@ operation = str(input("Choose the operation (+, -, *, /):"))
 match operation:
 
   case "+":
-    
      result=num1+num2
      print ("The result is "+ str(result)+".")
-     
   case "-":
-    
      result=num1-num2
      print ("The result is "+ str(result)+".")   
- 
-  case "*":
-    
+  case "*":  
      result=num1*num2
      print ("The result is "+ str(result)+".")  
-
-  case "/":
-    
+  case "/":   
      if num2 ==0:
           print("Cannot divide by zero.")
-      
      else:
          result=num1/num2
          print ("The result is "+ str(result)+".")
