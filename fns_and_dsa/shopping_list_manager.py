@@ -22,16 +22,16 @@ def main():
         display_menu()
         choice = int(input("Enter your choice: "))
 
-        if choice == '1':
-            add(shopping_list, int(input("Add item: ")))
+        if choice == 1:
+            add(shopping_list, input("Add item: "))
             pass
-        elif choice == '2':
-            remove(shopping_list, int(input("remove item: ")))
+        elif choice == 2:
+            remove(shopping_list, input("remove item: "))
             pass
-        elif choice == '3':
+        elif choice == 3:
             view(shopping_list)
             pass
-        elif choice == '4':
+        elif choice == 4:
             print("Goodbye!")
             break
         else:
