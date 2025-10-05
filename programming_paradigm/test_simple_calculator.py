@@ -10,11 +10,11 @@ class Testcal(unittest.TestCase):
     
     def test_addition(self):
         self.assertEqual(self.calc.add(4,3),7)
-    def test_Subtract(self):
+    def test_subtraction(self):
         self.assertEqual(self.calc.subtract(4,3),1)
-    def test_multiply(self):
+    def test_multiplication(self):
         self.assertEqual(self.calc.multiply(4,3),12)    
-    def test_divide(self):
+    def test_division(self):
         self.assertEqual(self.calc.divide(4,2),2)
         self.assertIsNone(self.calc.divide(4,0))
         
