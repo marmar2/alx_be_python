@@ -8,7 +8,7 @@ class Testcal(unittest.TestCase):
         # This creates a calculator instance before each test
         self.calc = SimpleCalculator()
     
-    def test_add(self):
+    def test_addition(self):
         result = self.calc.add(4,3)
         self.assertEqual(result,7)
     def test_Subtract(self):
